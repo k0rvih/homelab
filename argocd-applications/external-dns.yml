@@ -13,7 +13,7 @@ spec:
       helm:
         releaseName: external-dns
         valueFiles:
-          - $values/external-dns/values.yaml
+          - $values/external-dns/values.yml
 
     - repoURL: https://github.com/k0rvih/homelab.git
       targetRevision: main

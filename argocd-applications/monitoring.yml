@@ -16,7 +16,7 @@ spec:
       helm:
         releaseName: kube-prometheus-stack
         valueFiles:
-          - $values/monitoring/values.yaml
+          - $values/monitoring/values.yml
 
     - repoURL: https://github.com/k0rvih/homelab.git
       targetRevision: main
